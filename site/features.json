@@ -1,0 +1,15 @@
+{
+  "name": "Gerrit Hero",
+  "tagline": "Better Gerrit code review UX — one extension, any Gerrit instance.",
+  "storeUrl": null,
+  "storeCta": "Coming soon to Chrome Web Store",
+  "features": [
+    {
+      "id": "backtick-code-wrap",
+      "title": "Backtick code wrap",
+      "description": "Select text in a Gerrit comment and press ` to wrap it as inline code. Press ` again to unwrap.",
+      "since": "0.1.0",
+      "status": "available"
+    }
+  ]
+}

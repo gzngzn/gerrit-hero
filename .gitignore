@@ -1,0 +1,27 @@
+node_modules/
+dist/
+*.zip
+.DS_Store
+.build-id
+site/.output/
+
+# Local-only docs and notes (never commit)
+private/
+private.example/
+local/
+
+# Secrets and local config
+.env
+.env.*
+.npmrc
+*.pem
+credentials.json
+
+# Internal doc patterns (belt and suspenders)
+**/AGENTS.md
+**/HANDOFF.md
+**/MARKETING.md
+**/INSTANCES.md
+**/NOTES.md
+**/VISION.md
+**/*-internal.md

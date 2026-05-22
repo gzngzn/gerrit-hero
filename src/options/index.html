@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerrit Hero — Options</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Gerrit Hero</h1>
+      <p class="subtitle">Works automatically on any Gerrit instance. No setup required.</p>
+
+      <label class="checkbox">
+        <input type="checkbox" id="debug" />
+        Debug mode (console logs and badge overlay)
+      </label>
+
+      <div class="actions">
+        <button id="save" type="button">Save</button>
+        <span id="status" role="status"></span>
+      </div>
+    </main>
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>
